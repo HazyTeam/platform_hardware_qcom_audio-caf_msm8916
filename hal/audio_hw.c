@@ -427,9 +427,6 @@ static int get_snd_codec_id(audio_format_t format)
         id = SND_AUDIOCODEC_FLAC;
         break;
 #endif
-    case AUDIO_FORMAT_ALAC:
-        id = SND_AUDIOCODEC_ALAC;
-        break;
     case AUDIO_FORMAT_APE:
         id = SND_AUDIOCODEC_APE;
         break;
